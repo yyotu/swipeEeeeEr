@@ -14,4 +14,30 @@ const swiper = new Swiper('.swiper', {
     scrollbar: {
       el: '.swiper-scrollbar',
     },
+
+    touchRatio: 2,
+    grabCursor: true,
+
+    slideToClickedSlide: true,
+
+    hashNavigation: {
+      watchState: true,
+    },
+
+    keyboard: {
+      enabled: true,
+
+      onlyInViewport:true,
+
+      pageUpDown:true,
+    },
+
+    mousewheel: {
+      sensivity: 1,
+    },
+
+    autoHeight: true,
+    
+
+  
   });
